@@ -1,3 +1,17 @@
-# bookshop
+# Bookshop
 
-A new Flutter project.
+This is a simple implemation of "Bookshop" exercice.
+
+## Choices
+
+- Clean architecture (kinda)
+- State Manager : flutter_bloc
+- HttpClient : dio
+
+## Improvements
+
+- Only single page. Need to create a Cart page to properly display cart info. And add a router package (like GoRouter). BlocProvider should be created once before the routing layer.
+- Cart logic was implemented inside the book_bloc because of time constraint. Another dedicated bloc should be created for that.
+- Styling need improvement focus was on functionality.
+- Errors cases should be handled properly.
+- Unit test & integration test can be added.
